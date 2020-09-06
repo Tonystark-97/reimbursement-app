@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_package_dependency_m2m">
+    <sys_package_dependency_m2m action="INSERT_OR_UPDATE">
+        <dependency display_value="Task table schema" source="com.glide.task">f0f3dda61b2210103311877ddc4bcb45</dependency>
+        <min_version>1.0.0</min_version>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-08-27 06:02:53</sys_created_on>
+        <sys_id>46d8e7fe1b7290103311877ddc4bcbe0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_package display_value="Concur" source="x_525455_concur">be5b8fe61bb650103311877ddc4bcbe7</sys_package>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-08-27 06:02:53</sys_updated_on>
+    </sys_package_dependency_m2m>
+</record_update>

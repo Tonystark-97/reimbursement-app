@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="DELETE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <condition table="x_525455_concur_claims">u_requested_forDYNAMIC90d1921e5f510100a9ad2572f2b477fe^EQ<item endquery="false" field="u_requested_for" goto="false" newquery="false" operator="DYNAMIC" or="false" value="90d1921e5f510100a9ad2572f2b477fe"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <description>Allow read for records in x_525455_concur_claims, for users with role x_525455_concur.claims_user, and if the ACL condition (u_requested_forDYNAMIC90d1921e5f510100a9ad2572f2b477fe^EQ) evaluates to true.</description>
+        <name>x_525455_concur_claims</name>
+        <operation display_value="read">read</operation>
+        <script/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-08-30 09:12:23</sys_created_on>
+        <sys_id>b4a077bf1bfa50103311877ddc4bcb0a</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>x_525455_concur_claims</sys_name>
+        <sys_package display_value="Concur" source="x_525455_concur">be5b8fe61bb650103311877ddc4bcbe7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Concur">be5b8fe61bb650103311877ddc4bcbe7</sys_scope>
+        <sys_update_name>sys_security_acl_b4a077bf1bfa50103311877ddc4bcb0a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-08-30 09:38:56</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Concur">be5b8fe61bb650103311877ddc4bcbe7</application>
+        <file_path/>
+        <instance_id>b2d4ecb5dbd4cc5007072f17d4961940</instance_id>
+        <instance_name>dev94283</instance_name>
+        <name>sys_security_acl_b4a077bf1bfa50103311877ddc4bcb0a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><condition table="x_525455_concur_claims">u_requested_forDYNAMIC90d1921e5f510100a9ad2572f2b477fe^EQ<item endquery="false" field="u_requested_for" goto="false" newquery="false" operator="DYNAMIC" or="false" value="90d1921e5f510100a9ad2572f2b477fe"/><item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/></condition><description>Allow read for records in x_525455_concur_claims, for users with role x_525455_concur.claims_user, and if the ACL condition (u_requested_forDYNAMIC90d1921e5f510100a9ad2572f2b477fe^EQ) evaluates to true.</description><name>x_525455_concur_claims</name><operation display_value="read">read</operation><script/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-08-30 09:12:23</sys_created_on><sys_id>b4a077bf1bfa50103311877ddc4bcb0a</sys_id><sys_mod_count>3</sys_mod_count><sys_name>x_525455_concur_claims</sys_name><sys_package display_value="Concur" source="x_525455_concur">be5b8fe61bb650103311877ddc4bcbe7</sys_package><sys_policy/><sys_scope display_value="Concur">be5b8fe61bb650103311877ddc4bcbe7</sys_scope><sys_update_name>sys_security_acl_b4a077bf1bfa50103311877ddc4bcb0a</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-08-30 09:38:56</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+        <payload_hash>1309713754</payload_hash>
+        <record_name>x_525455_concur_claims</record_name>
+        <reverted_from/>
+        <source>b65b8fe61bb650103311877ddc4bcbea</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-08-30 09:38:56</sys_created_on>
+        <sys_id>1c1733371b3e50103311877ddc4bcbcc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1743ebbe9b10000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-08-30 09:38:56</sys_updated_on>
+        <type>Access Control</type>
+        <update_guid>94173337783e5010aba4cd7a9d410ecc</update_guid>
+        <update_guid_history>94173337783e5010aba4cd7a9d410ecc:1309713754,b86677f3163e50108fed49ace2e3b91e:-494762387,09467fb3573e5010b2236da7a8e19d67:820403141,abf077ff30fa5010eb42688838ef3c51:-289687775</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-02 15:31:39</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl">sys_security_acl</sys_db_object>
+        <sys_id>0c8bd9794202472280d5dd4b595ea1a4</sys_id>
+        <sys_metadata>b4a077bf1bfa50103311877ddc4bcb0a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_525455_concur_claims</sys_name>
+        <sys_package display_value="Concur" source="x_525455_concur">be5b8fe61bb650103311877ddc4bcbe7</sys_package>
+        <sys_parent display_value="x_525455_concur_claims">8f8ba3b21bb290103311877ddc4bcb6c</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Concur">be5b8fe61bb650103311877ddc4bcbe7</sys_scope>
+        <sys_scope_delete display_value="">1c3641afc45a49d29dbd28af9fb4ec84</sys_scope_delete>
+        <sys_update_name>sys_security_acl_b4a077bf1bfa50103311877ddc4bcb0a</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_b4a077bf1bfa50103311877ddc4bcb0a">1c1733371b3e50103311877ddc4bcbcc</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-02 15:31:39</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

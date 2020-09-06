@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="DELETE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>false</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_525455_concur_claims</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Set State Awaiting Approval</name>
+        <order>200</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+	
+	// Add your code here
+	current.state = 14;
+        
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-08-27 12:20:01</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>3f8ef0cf1b7690103311877ddc4bcbb4</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_name>Set State Awaiting Approval</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Concur" source="x_525455_concur">be5b8fe61bb650103311877ddc4bcbe7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Concur">be5b8fe61bb650103311877ddc4bcbe7</sys_scope>
+        <sys_update_name>sys_script_3f8ef0cf1b7690103311877ddc4bcbb4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-03 04:47:26</sys_updated_on>
+        <template/>
+        <when>after</when>
+    </sys_script>
+    <sys_translated_text action="DELETE" query="documentkey=3f8ef0cf1b7690103311877ddc4bcbb4"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Concur">be5b8fe61bb650103311877ddc4bcbe7</application>
+        <file_path/>
+        <instance_id>b2d4ecb5dbd4cc5007072f17d4961940</instance_id>
+        <instance_name>dev94283</instance_name>
+        <name>sys_script_3f8ef0cf1b7690103311877ddc4bcbb4</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;true&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;false&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;x_525455_concur_claims&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition/&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;Set State Awaiting Approval&lt;/name&gt;&lt;order&gt;200&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/) {
+	
+	// Add your code here
+	current.state = 14;
+        
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-08-27 12:20:01&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;3f8ef0cf1b7690103311877ddc4bcbb4&lt;/sys_id&gt;&lt;sys_mod_count&gt;13&lt;/sys_mod_count&gt;&lt;sys_name&gt;Set State Awaiting Approval&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Concur" source="x_525455_concur"&gt;be5b8fe61bb650103311877ddc4bcbe7&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Concur"&gt;be5b8fe61bb650103311877ddc4bcbe7&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_3f8ef0cf1b7690103311877ddc4bcbb4&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-09-03 04:47:26&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;after&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=3f8ef0cf1b7690103311877ddc4bcbb4"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1959114577</payload_hash>
+        <record_name>Set State Awaiting Approval</record_name>
+        <reverted_from/>
+        <source>b65b8fe61bb650103311877ddc4bcbea</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-03 04:47:26</sys_created_on>
+        <sys_id>51ba53891bc354103311877ddc4bcb79</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>174524a78ac0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-03 04:47:26</sys_updated_on>
+        <type>Business Rule</type>
+        <update_guid>59ba538951c35410465b5fb86d5d2878</update_guid>
+        <update_guid_history>59ba538951c35410465b5fb86d5d2878:1959114577,88280610ba8f9010f4d6a217caade5d3:-648752136,3e807950224f901011b2be3aa3b14d43:796532201,fb703950f84f90102caf4d6d4976148b:-70960206,a07201dccc8b9010fc68936801670741:1338770265,66c1c99ca88b90104241b26410d89ef1:2045568564,9161499c9b8b901000cf7a9a0b5769ec:119775528,ff7fb0d8c08b9010d7b345229e8f9f5d:1548503842,dfd89c10514b901031c5bee7be92bd7e:2045568564,a8f70890500b9010638651dbf206770b:-399777049,46a60450020b901056c0310d395c9f0a:-1141611193,d9ee29cf95f6901030b49cac00a61b49:-1470012579,3dd8458724b69010b2f16c13a5244c57:-1925329763,ba2f300367b69010b3b21865acb38283:639984318</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-03 05:28:40</sys_created_on>
+        <sys_db_object display_value="" name="sys_script">sys_script</sys_db_object>
+        <sys_id>305dc5b8c6d343e080df707c9bf1d9d1</sys_id>
+        <sys_metadata>3f8ef0cf1b7690103311877ddc4bcbb4</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Set State Awaiting Approval</sys_name>
+        <sys_package display_value="Concur" source="x_525455_concur">be5b8fe61bb650103311877ddc4bcbe7</sys_package>
+        <sys_parent display_value="Claims">697b23b21bb290103311877ddc4bcbe9</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Concur">be5b8fe61bb650103311877ddc4bcbe7</sys_scope>
+        <sys_scope_delete display_value="">1c3641afc45a49d29dbd28af9fb4ec84</sys_scope_delete>
+        <sys_update_name>sys_script_3f8ef0cf1b7690103311877ddc4bcbb4</sys_update_name>
+        <sys_update_version display_value="sys_script_3f8ef0cf1b7690103311877ddc4bcbb4">51ba53891bc354103311877ddc4bcb79</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-03 05:28:40</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

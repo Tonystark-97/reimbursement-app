@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application">
+    <sys_app_application action="DELETE">
+        <active>true</active>
+        <category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category>
+        <description/>
+        <device_type>browser</device_type>
+        <hint/>
+        <name>Claims</name>
+        <order>100</order>
+        <roles>x_525455_concur.claims_user</roles>
+        <sys_class_name>sys_app_application</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-08-27 06:13:22</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f73bab721bb290103311877ddc4bcbfd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Claims</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Concur" source="x_525455_concur">be5b8fe61bb650103311877ddc4bcbe7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Concur">be5b8fe61bb650103311877ddc4bcbe7</sys_scope>
+        <sys_update_name>sys_app_application_f73bab721bb290103311877ddc4bcbfd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-08-27 06:13:22</sys_updated_on>
+        <title>Claims</title>
+        <view_name/>
+    </sys_app_application>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Concur">be5b8fe61bb650103311877ddc4bcbe7</application>
+        <file_path/>
+        <instance_id>b2d4ecb5dbd4cc5007072f17d4961940</instance_id>
+        <instance_name>dev94283</instance_name>
+        <name>sys_app_application_f73bab721bb290103311877ddc4bcbfd</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application"><sys_app_application action="INSERT_OR_UPDATE"><active>true</active><category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category><description/><device_type>browser</device_type><hint/><name>Claims</name><order>100</order><roles>x_525455_concur.claims_user</roles><sys_class_name>sys_app_application</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-08-27 06:13:22</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>f73bab721bb290103311877ddc4bcbfd</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Claims</sys_name><sys_overrides/><sys_package display_value="Concur" source="x_525455_concur">be5b8fe61bb650103311877ddc4bcbe7</sys_package><sys_policy/><sys_scope display_value="Concur">be5b8fe61bb650103311877ddc4bcbe7</sys_scope><sys_update_name>sys_app_application_f73bab721bb290103311877ddc4bcbfd</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-08-27 06:13:22</sys_updated_on><title>Claims</title><view_name/></sys_app_application></record_update>]]></payload>
+        <payload_hash>2143839155</payload_hash>
+        <record_name>Claims</record_name>
+        <reverted_from/>
+        <source>b65b8fe61bb650103311877ddc4bcbea</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-08-27 06:13:22</sys_created_on>
+        <sys_id>7b3bab721bb290103311877ddc4bcbff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1742e8ca2430000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-08-27 06:13:22</sys_updated_on>
+        <type>Application Menu</type>
+        <update_guid>b33bab72d7b29010e5a4767238d2ceff</update_guid>
+        <update_guid_history>b33bab72d7b29010e5a4767238d2ceff:2143839155</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Claims">706beb721bb290103311877ddc4bcb8b</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-08-27 06:13:59</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_application">sys_app_application</sys_db_object>
+        <sys_id>25504869e5d040a48cf5048ff5dfc910</sys_id>
+        <sys_metadata>f73bab721bb290103311877ddc4bcbfd</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Claims</sys_name>
+        <sys_package display_value="Concur" source="x_525455_concur">be5b8fe61bb650103311877ddc4bcbe7</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Concur">be5b8fe61bb650103311877ddc4bcbe7</sys_scope>
+        <sys_scope_delete display_value="">1c3641afc45a49d29dbd28af9fb4ec84</sys_scope_delete>
+        <sys_update_name>sys_app_application_f73bab721bb290103311877ddc4bcbfd</sys_update_name>
+        <sys_update_version display_value="sys_app_application_f73bab721bb290103311877ddc4bcbfd">7b3bab721bb290103311877ddc4bcbff</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-08-27 06:13:59</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

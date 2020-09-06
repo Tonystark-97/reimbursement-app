@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="x_525455_concur.claims_user" name="x_525455_concur.claims_user">4b8b23b21bb290103311877ddc4bcb5d</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-08-27 06:14:41</sys_created_on>
+        <sys_id>c38ba3b21bb290103311877ddc4bcb3a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>4b8b23b21bb290103311877ddc4bcb5d</sys_name>
+        <sys_package display_value="Concur" source="x_525455_concur">be5b8fe61bb650103311877ddc4bcbe7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Concur">be5b8fe61bb650103311877ddc4bcbe7</sys_scope>
+        <sys_update_name>sys_embedded_help_role_c38ba3b21bb290103311877ddc4bcb3a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-08-27 06:14:41</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

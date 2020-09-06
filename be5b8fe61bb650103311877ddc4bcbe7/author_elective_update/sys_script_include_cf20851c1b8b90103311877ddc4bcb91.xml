@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="DELETE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_525455_concur.GetManager</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description>Getting the manager of logged in user</description>
+        <name>GetManager</name>
+        <script><![CDATA[var GetManager = Class.create();
+// Extend the global.AbstractAjaxProcessor class
+GetManager.prototype = Object.extendsObject(global.AbstractAjaxProcessor,{
+
+    // Create a GlideRecord for the User table.
+    // Use the sysparm_userID passed from the client side to retrieve a record from the User table.
+   
+    getManager: function() {
+        var userRecord = new GlideRecord("sys_user");
+        userRecord.get(this.getParameter('sysparm_userID'));
+        return userRecord.manager + '';
+    },
+    type: 'GetManager'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-08-31 09:39:45</sys_created_on>
+        <sys_id>cf20851c1b8b90103311877ddc4bcb91</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>GetManager</sys_name>
+        <sys_package display_value="Concur" source="x_525455_concur">be5b8fe61bb650103311877ddc4bcbe7</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Concur">be5b8fe61bb650103311877ddc4bcbe7</sys_scope>
+        <sys_update_name>sys_script_include_cf20851c1b8b90103311877ddc4bcb91</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-08-31 09:39:45</sys_updated_on>
+    </sys_script_include>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Concur">be5b8fe61bb650103311877ddc4bcbe7</application>
+        <file_path/>
+        <instance_id>b2d4ecb5dbd4cc5007072f17d4961940</instance_id>
+        <instance_name>dev94283</instance_name>
+        <name>sys_script_include_cf20851c1b8b90103311877ddc4bcb91</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;x_525455_concur.GetManager&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;true&lt;/client_callable&gt;&lt;description&gt;Getting the manager of logged in user&lt;/description&gt;&lt;name&gt;GetManager&lt;/name&gt;&lt;script&gt;&lt;![CDATA[var GetManager = Class.create();
+// Extend the global.AbstractAjaxProcessor class
+GetManager.prototype = Object.extendsObject(global.AbstractAjaxProcessor,{
+
+    // Create a GlideRecord for the User table.
+    // Use the sysparm_userID passed from the client side to retrieve a record from the User table.
+   
+    getManager: function() {
+        var userRecord = new GlideRecord("sys_user");
+        userRecord.get(this.getParameter('sysparm_userID'));
+        return userRecord.manager + '';
+    },
+    type: 'GetManager'
+});]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-08-31 09:39:45&lt;/sys_created_on&gt;&lt;sys_id&gt;cf20851c1b8b90103311877ddc4bcb91&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;GetManager&lt;/sys_name&gt;&lt;sys_package display_value="Concur" source="x_525455_concur"&gt;be5b8fe61bb650103311877ddc4bcbe7&lt;/sys_package&gt;&lt;sys_policy&gt;read&lt;/sys_policy&gt;&lt;sys_scope display_value="Concur"&gt;be5b8fe61bb650103311877ddc4bcbe7&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_cf20851c1b8b90103311877ddc4bcb91&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-08-31 09:39:45&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1462294095</payload_hash>
+        <record_name>GetManager</record_name>
+        <reverted_from/>
+        <source>b65b8fe61bb650103311877ddc4bcbea</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-08-31 09:39:45</sys_created_on>
+        <sys_id>06d0c19c1b8b90103311877ddc4bcb77</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17443e306740000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-08-31 09:39:45</sys_updated_on>
+        <type>Script Include</type>
+        <update_guid>4ed0c19c0d8b901013eba3b21adc1476</update_guid>
+        <update_guid_history>4ed0c19c0d8b901013eba3b21adc1476:1462294095</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-08-31 09:41:36</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_include">sys_script_include</sys_db_object>
+        <sys_id>406ae815ccbb4d4e800eba81d521b191</sys_id>
+        <sys_metadata>cf20851c1b8b90103311877ddc4bcb91</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>GetManager</sys_name>
+        <sys_package display_value="Concur" source="x_525455_concur">be5b8fe61bb650103311877ddc4bcbe7</sys_package>
+        <sys_parent/>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Concur">be5b8fe61bb650103311877ddc4bcbe7</sys_scope>
+        <sys_scope_delete display_value="">1c3641afc45a49d29dbd28af9fb4ec84</sys_scope_delete>
+        <sys_update_name>sys_script_include_cf20851c1b8b90103311877ddc4bcb91</sys_update_name>
+        <sys_update_version display_value="sys_script_include_cf20851c1b8b90103311877ddc4bcb91">06d0c19c1b8b90103311877ddc4bcb77</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-08-31 09:41:36</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

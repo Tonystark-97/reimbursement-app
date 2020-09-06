@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_action_role">
+    <sys_ui_action_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_ui_action_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-02 16:18:44</sys_created_on>
+        <sys_id>f90fa0c11b0f14103311877ddc4bcb2a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>.x_525455_concur.claims_user</sys_name>
+        <sys_package display_value="Concur" source="x_525455_concur">be5b8fe61bb650103311877ddc4bcbe7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Concur">be5b8fe61bb650103311877ddc4bcbe7</sys_scope>
+        <sys_ui_action display_value="Withdraw">e80fe4c11b0f14103311877ddc4bcbf0</sys_ui_action>
+        <sys_update_name>sys_ui_action_role_f90fa0c11b0f14103311877ddc4bcb2a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-02 16:18:44</sys_updated_on>
+        <sys_user_role display_value="x_525455_concur.claims_user" name="x_525455_concur.claims_user">4b8b23b21bb290103311877ddc4bcb5d</sys_user_role>
+    </sys_ui_action_role>
+</record_update>

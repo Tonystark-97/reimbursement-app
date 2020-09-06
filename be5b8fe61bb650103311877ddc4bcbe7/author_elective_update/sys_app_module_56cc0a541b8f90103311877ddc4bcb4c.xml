@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="Concur">8b8ba3b21bb290103311877ddc4bcb3f</application>
+        <assessment/>
+        <device_type/>
+        <filter table="sysapproval_approver">approverDYNAMIC90d1921e5f510100a9ad2572f2b477fe^sysapprovalSTARTSWITHCON^state=approved^EQ<item endquery="false" field="approver" goto="false" newquery="false" operator="DYNAMIC" or="false" value="90d1921e5f510100a9ad2572f2b477fe"/>
+            <item endquery="false" field="sysapproval" goto="false" newquery="false" operator="STARTSWITH" or="false" value="CON"/>
+            <item display_value="Approved" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="approved"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>My Approvals</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>sysapproval_approver</name>
+        <order>400</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles>admin,x_525455_concur.admin</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-08-31 15:31:11</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>56cc0a541b8f90103311877ddc4bcb4c</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>My Completed Approvals</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Concur" source="x_525455_concur">be5b8fe61bb650103311877ddc4bcbe7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Concur">be5b8fe61bb650103311877ddc4bcbe7</sys_scope>
+        <sys_update_name>sys_app_module_56cc0a541b8f90103311877ddc4bcb4c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-02 11:30:04</sys_updated_on>
+        <timeline_page/>
+        <title>My Completed Approvals</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Concur">be5b8fe61bb650103311877ddc4bcbe7</application>
+        <file_path/>
+        <instance_id>b2d4ecb5dbd4cc5007072f17d4961940</instance_id>
+        <instance_name>dev94283</instance_name>
+        <name>sys_app_module_56cc0a541b8f90103311877ddc4bcb4c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Concur">8b8ba3b21bb290103311877ddc4bcb3f</application><assessment/><device_type/><filter table="sysapproval_approver">approverDYNAMIC90d1921e5f510100a9ad2572f2b477fe^sysapprovalSTARTSWITHCON^state=approved^EQ<item endquery="false" field="approver" goto="false" newquery="false" operator="DYNAMIC" or="false" value="90d1921e5f510100a9ad2572f2b477fe"/><item endquery="false" field="sysapproval" goto="false" newquery="false" operator="STARTSWITH" or="false" value="CON"/><item display_value="Approved" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="approved"/><item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/></filter><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>My Approvals</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>sysapproval_approver</name><order>400</order><override_menu_roles>false</override_menu_roles><query/><report/><roles>admin,x_525455_concur.admin</roles><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-08-31 15:31:11</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>56cc0a541b8f90103311877ddc4bcb4c</sys_id><sys_mod_count>2</sys_mod_count><sys_name>My Completed Approvals</sys_name><sys_overrides/><sys_package display_value="Concur" source="x_525455_concur">be5b8fe61bb650103311877ddc4bcbe7</sys_package><sys_policy/><sys_scope display_value="Concur">be5b8fe61bb650103311877ddc4bcbe7</sys_scope><sys_update_name>sys_app_module_56cc0a541b8f90103311877ddc4bcb4c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-09-02 11:30:04</sys_updated_on><timeline_page/><title>My Completed Approvals</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>-505114277</payload_hash>
+        <record_name>My Completed Approvals</record_name>
+        <reverted_from/>
+        <source>b65b8fe61bb650103311877ddc4bcbea</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-02 11:30:04</sys_created_on>
+        <sys_id>dd4d2bfc1b0b14103311877ddc4bcbc3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1744e94bb2d0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-02 11:30:04</sys_updated_on>
+        <type>Module</type>
+        <update_guid>594d2bfce20b1410abb88dc70dcd38c3</update_guid>
+        <update_guid_history>594d2bfce20b1410abb88dc70dcd38c3:-505114277,a8e35a98738f9010f9dc96805c090b01:-1201291834,c2419a184c8f9010bab73a663db51f9a:622565827</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="My Completed Approvals">860da7891b0754103311877ddc4bcbfd</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-03 06:07:30</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>d6c42a4870a3414ab62a0f5b0676fa64</sys_id>
+        <sys_metadata>56cc0a541b8f90103311877ddc4bcb4c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>My Completed Approvals</sys_name>
+        <sys_package display_value="Concur" source="x_525455_concur">be5b8fe61bb650103311877ddc4bcbe7</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Concur">be5b8fe61bb650103311877ddc4bcbe7</sys_scope>
+        <sys_scope_delete display_value="">1c3641afc45a49d29dbd28af9fb4ec84</sys_scope_delete>
+        <sys_update_name>sys_app_module_56cc0a541b8f90103311877ddc4bcb4c</sys_update_name>
+        <sys_update_version display_value="sys_app_module_56cc0a541b8f90103311877ddc4bcb4c">dd4d2bfc1b0b14103311877ddc4bcbc3</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-03 06:07:30</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

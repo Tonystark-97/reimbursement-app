@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysevent_register">
+    <sysevent_register action="INSERT_OR_UPDATE">
+        <caller_access/>
+        <description>This event is fired when there are claims to be approved</description>
+        <event_name>x_525455_concur.ClaimsToBeApproved</event_name>
+        <fired_by>Scheduled Script Execution - Find Claims to be approved</fired_by>
+        <queue/>
+        <suffix>ClaimsToBeApproved</suffix>
+        <sys_class_name>sysevent_register</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-08-31 08:25:08</sys_created_on>
+        <sys_id>1a3f6c1c1b4b90103311877ddc4bcbad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_525455_concur.ClaimsToBeApproved</sys_name>
+        <sys_package display_value="Concur" source="x_525455_concur">be5b8fe61bb650103311877ddc4bcbe7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Concur">be5b8fe61bb650103311877ddc4bcbe7</sys_scope>
+        <sys_update_name>sysevent_register_1a3f6c1c1b4b90103311877ddc4bcbad</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-08-31 08:25:08</sys_updated_on>
+        <table>x_525455_concur_claims</table>
+    </sysevent_register>
+</record_update>

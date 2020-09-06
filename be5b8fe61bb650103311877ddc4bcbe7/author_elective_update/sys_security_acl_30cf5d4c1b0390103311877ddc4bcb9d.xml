@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="DELETE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>true</advanced>
+        <condition/>
+        <description/>
+        <name>x_525455_concur_claims</name>
+        <operation display_value="write">write</operation>
+        <script><![CDATA[current.isNewRecord();]]></script>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-08-30 17:17:39</sys_created_on>
+        <sys_id>30cf5d4c1b0390103311877ddc4bcb9d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_525455_concur_claims</sys_name>
+        <sys_package display_value="Concur" source="x_525455_concur">be5b8fe61bb650103311877ddc4bcbe7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Concur">be5b8fe61bb650103311877ddc4bcbe7</sys_scope>
+        <sys_update_name>sys_security_acl_30cf5d4c1b0390103311877ddc4bcb9d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-08-30 17:17:39</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Concur">be5b8fe61bb650103311877ddc4bcbe7</application>
+        <file_path/>
+        <instance_id>b2d4ecb5dbd4cc5007072f17d4961940</instance_id>
+        <instance_name>dev94283</instance_name>
+        <name>sys_security_acl_30cf5d4c1b0390103311877ddc4bcb9d</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_security_acl"&gt;&lt;sys_security_acl action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;admin_overrides&gt;true&lt;/admin_overrides&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;condition/&gt;&lt;description/&gt;&lt;name&gt;x_525455_concur_claims&lt;/name&gt;&lt;operation display_value="write"&gt;write&lt;/operation&gt;&lt;script&gt;&lt;![CDATA[current.isNewRecord();]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_security_acl&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-08-30 17:17:39&lt;/sys_created_on&gt;&lt;sys_id&gt;30cf5d4c1b0390103311877ddc4bcb9d&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;x_525455_concur_claims&lt;/sys_name&gt;&lt;sys_package display_value="Concur" source="x_525455_concur"&gt;be5b8fe61bb650103311877ddc4bcbe7&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Concur"&gt;be5b8fe61bb650103311877ddc4bcbe7&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_security_acl_30cf5d4c1b0390103311877ddc4bcb9d&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-08-30 17:17:39&lt;/sys_updated_on&gt;&lt;type display_value="record"&gt;record&lt;/type&gt;&lt;/sys_security_acl&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>2105642283</payload_hash>
+        <record_name>x_525455_concur_claims</record_name>
+        <reverted_from/>
+        <source>b65b8fe61bb650103311877ddc4bcbea</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-08-30 17:17:39</sys_created_on>
+        <sys_id>3b0065cc1b0390103311877ddc4bcb24</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>174405fe2be0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-08-30 17:17:39</sys_updated_on>
+        <type>Access Control</type>
+        <update_guid>730065cc5803901043bfd27a0e9ba224</update_guid>
+        <update_guid_history>730065cc5803901043bfd27a0e9ba224:2105642283</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-08-30 17:19:54</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl">sys_security_acl</sys_db_object>
+        <sys_id>b875f5fc3a4b4af4bf0ea38ec93d11a4</sys_id>
+        <sys_metadata>30cf5d4c1b0390103311877ddc4bcb9d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_525455_concur_claims</sys_name>
+        <sys_package display_value="Concur" source="x_525455_concur">be5b8fe61bb650103311877ddc4bcbe7</sys_package>
+        <sys_parent display_value="x_525455_concur_claims">8f8ba3b21bb290103311877ddc4bcb6c</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Concur">be5b8fe61bb650103311877ddc4bcbe7</sys_scope>
+        <sys_scope_delete display_value="">1c3641afc45a49d29dbd28af9fb4ec84</sys_scope_delete>
+        <sys_update_name>sys_security_acl_30cf5d4c1b0390103311877ddc4bcb9d</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_30cf5d4c1b0390103311877ddc4bcb9d">3b0065cc1b0390103311877ddc4bcb24</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-08-30 17:19:54</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

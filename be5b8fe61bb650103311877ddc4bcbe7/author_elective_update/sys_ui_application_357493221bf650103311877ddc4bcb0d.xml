@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_application">
+    <sys_ui_application action="DELETE">
+        <active>true</active>
+        <hint/>
+        <name>Concur</name>
+        <order/>
+        <roles>x_525455_concur.claims_user</roles>
+        <sys_class_name>sys_ui_application</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-08-26 09:55:21</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>357493221bf650103311877ddc4bcb0d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Concur</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Concur" source="x_525455_concur">be5b8fe61bb650103311877ddc4bcbe7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Concur">be5b8fe61bb650103311877ddc4bcbe7</sys_scope>
+        <sys_update_name>sys_ui_application_357493221bf650103311877ddc4bcb0d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-08-26 09:55:21</sys_updated_on>
+    </sys_ui_application>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Concur">be5b8fe61bb650103311877ddc4bcbe7</application>
+        <file_path/>
+        <instance_id>b2d4ecb5dbd4cc5007072f17d4961940</instance_id>
+        <instance_name>dev94283</instance_name>
+        <name>sys_ui_application_357493221bf650103311877ddc4bcb0d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_application"><sys_ui_application action="INSERT_OR_UPDATE"><active>true</active><hint/><name>Concur</name><order/><roles>x_525455_concur.claims_user</roles><sys_class_name>sys_ui_application</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-08-26 09:55:21</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>357493221bf650103311877ddc4bcb0d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Concur</sys_name><sys_overrides/><sys_package display_value="Concur" source="x_525455_concur">be5b8fe61bb650103311877ddc4bcbe7</sys_package><sys_policy/><sys_scope display_value="Concur">be5b8fe61bb650103311877ddc4bcbe7</sys_scope><sys_update_name>sys_ui_application_357493221bf650103311877ddc4bcb0d</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-08-26 09:55:21</sys_updated_on></sys_ui_application></record_update>]]></payload>
+        <payload_hash>-2023948932</payload_hash>
+        <record_name>Concur</record_name>
+        <reverted_from/>
+        <source>b65b8fe61bb650103311877ddc4bcbea</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-08-26 09:55:21</sys_created_on>
+        <sys_id>397493221bf650103311877ddc4bcb0f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1742a3181ba0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-08-26 09:55:21</sys_updated_on>
+        <type>Application Menu</type>
+        <update_guid>7174932245f650101a1f1711f45fbd0f</update_guid>
+        <update_guid_history>7174932245f650101a1f1711f45fbd0f:-2023948932</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-08-27 06:12:22</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_application">sys_ui_application</sys_db_object>
+        <sys_id>561b8af398304ea6954654a2c2cf9a64</sys_id>
+        <sys_metadata>357493221bf650103311877ddc4bcb0d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Concur</sys_name>
+        <sys_package display_value="Concur" source="x_525455_concur">be5b8fe61bb650103311877ddc4bcbe7</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Concur">be5b8fe61bb650103311877ddc4bcbe7</sys_scope>
+        <sys_scope_delete display_value="">1c3641afc45a49d29dbd28af9fb4ec84</sys_scope_delete>
+        <sys_update_name>sys_ui_application_357493221bf650103311877ddc4bcb0d</sys_update_name>
+        <sys_update_version display_value="sys_ui_application_357493221bf650103311877ddc4bcb0d">397493221bf650103311877ddc4bcb0f</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-08-27 06:12:22</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

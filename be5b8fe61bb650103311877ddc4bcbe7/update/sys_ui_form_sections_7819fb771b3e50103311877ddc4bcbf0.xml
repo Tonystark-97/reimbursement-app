@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="7819fb771b3e50103311877ddc4bcbf0" sys_domain="global" table="x_525455_concur_claims" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>beth.anglin</sys_created_by>
+            <sys_created_on>2020-08-30 09:47:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7419fb771b3e50103311877ddc4bcbf4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_525455_concur_claims" name="x_525455_concur_claims" sys_domain="global" view="5bd975bd0fa03200cd674f8ce1050e7f">7819fb771b3e50103311877ddc4bcbf0</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_525455_concur_claims" sys_domain="global" view="5bd975bd0fa03200cd674f8ce1050e7f">7419fb771b3e50103311877ddc4bcbed</sys_ui_section>
+            <sys_updated_by>beth.anglin</sys_updated_by>
+            <sys_updated_on>2020-08-30 09:47:43</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>beth.anglin</sys_created_by>
+            <sys_created_on>2020-08-30 09:47:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7019fb771b3e50103311877ddc4bcbf5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_525455_concur_claims" name="x_525455_concur_claims" sys_domain="global" view="5bd975bd0fa03200cd674f8ce1050e7f">7819fb771b3e50103311877ddc4bcbf0</sys_ui_form>
+            <sys_ui_section caption="Log" display_value="Log" name="x_525455_concur_claims" sys_domain="global" view="5bd975bd0fa03200cd674f8ce1050e7f">3c19fb771b3e50103311877ddc4bcbee</sys_ui_section>
+            <sys_updated_by>beth.anglin</sys_updated_by>
+            <sys_updated_on>2020-08-30 09:47:43</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>beth.anglin</sys_created_by>
+            <sys_created_on>2020-08-30 09:47:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b819fb771b3e50103311877ddc4bcbf8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_525455_concur_claims" name="x_525455_concur_claims" sys_domain="global" view="5bd975bd0fa03200cd674f8ce1050e7f">7819fb771b3e50103311877ddc4bcbf0</sys_ui_form>
+            <sys_ui_section caption="Statistics" display_value="Statistics" name="x_525455_concur_claims" sys_domain="global" view="5bd975bd0fa03200cd674f8ce1050e7f">3819fb771b3e50103311877ddc4bcbef</sys_ui_section>
+            <sys_updated_by>beth.anglin</sys_updated_by>
+            <sys_updated_on>2020-08-30 09:47:43</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_525455_concur_claims</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>beth.anglin</sys_created_by>
+            <sys_created_on>2020-08-30 09:47:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7819fb771b3e50103311877ddc4bcbf0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_525455_concur_claims</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Concur" source="x_525455_concur">be5b8fe61bb650103311877ddc4bcbe7</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Concur">be5b8fe61bb650103311877ddc4bcbe7</sys_scope>
+            <sys_update_name>sys_ui_form_sections_7819fb771b3e50103311877ddc4bcbf0</sys_update_name>
+            <sys_updated_by>beth.anglin</sys_updated_by>
+            <sys_updated_on>2020-08-30 09:47:43</sys_updated_on>
+            <sys_user/>
+            <view display_value="User" name="User">5bd975bd0fa03200cd674f8ce1050e7f</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

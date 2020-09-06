@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer">
+    <sys_wizard_answer action="DELETE">
+        <active>true</active>
+        <answer>Claims</answer>
+        <button_label/>
+        <dependent_value/>
+        <element/>
+        <name>Claims</name>
+        <next_question/>
+        <order>100</order>
+        <payload_name/>
+        <question display_value="Task" name="Task">b8f3dda61b2210103311877ddc4bcb47</question>
+        <roles/>
+        <script/>
+        <sys_class_name>sys_wizard_answer</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-08-27 06:02:53</sys_created_on>
+        <sys_id>c2d8e7fe1b7290103311877ddc4bcbd6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Claims</sys_name>
+        <sys_package display_value="Concur" source="x_525455_concur">be5b8fe61bb650103311877ddc4bcbe7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Concur">be5b8fe61bb650103311877ddc4bcbe7</sys_scope>
+        <sys_update_name>sys_wizard_answer_c2d8e7fe1b7290103311877ddc4bcbd6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-08-27 06:02:53</sys_updated_on>
+        <table/>
+        <target_url>x_525455_concur_claims.do</target_url>
+        <type>1</type>
+    </sys_wizard_answer>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Concur">be5b8fe61bb650103311877ddc4bcbe7</application>
+        <file_path/>
+        <instance_id>b2d4ecb5dbd4cc5007072f17d4961940</instance_id>
+        <instance_name>dev94283</instance_name>
+        <name>sys_wizard_answer_c2d8e7fe1b7290103311877ddc4bcbd6</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer"><sys_wizard_answer action="INSERT_OR_UPDATE"><active>true</active><answer>Claims</answer><button_label/><dependent_value/><element/><name>Claims</name><next_question/><order>100</order><payload_name/><question display_value="Task" name="Task">b8f3dda61b2210103311877ddc4bcb47</question><roles/><script/><sys_class_name>sys_wizard_answer</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-08-27 06:02:53</sys_created_on><sys_id>c2d8e7fe1b7290103311877ddc4bcbd6</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Claims</sys_name><sys_package display_value="Concur" source="x_525455_concur">be5b8fe61bb650103311877ddc4bcbe7</sys_package><sys_policy/><sys_scope display_value="Concur">be5b8fe61bb650103311877ddc4bcbe7</sys_scope><sys_update_name>sys_wizard_answer_c2d8e7fe1b7290103311877ddc4bcbd6</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-08-27 06:02:53</sys_updated_on><table/><target_url>x_525455_concur_claims.do</target_url><type>1</type></sys_wizard_answer></record_update>]]></payload>
+        <payload_hash>-1483587957</payload_hash>
+        <record_name>Claims</record_name>
+        <reverted_from/>
+        <source>77a1a1221b2210103311877ddc4bcbca</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2020-08-13 15:18:10</sys_created_on>
+        <sys_id>c3ea67721bb290103311877ddc4bcb6b</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>173e8665f500000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>Answer</type>
+        <update_guid>83ea6772cbb290100139f7f0fb9d9a6b</update_guid>
+        <update_guid_history>83ea6772cbb290100139f7f0fb9d9a6b:-1483587957</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-08-27 06:11:57</sys_created_on>
+        <sys_db_object display_value="" name="sys_wizard_answer">sys_wizard_answer</sys_db_object>
+        <sys_id>84c332fc76f74cfeabbed6202f3e8a81</sys_id>
+        <sys_metadata>c2d8e7fe1b7290103311877ddc4bcbd6</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Claims</sys_name>
+        <sys_package display_value="Concur" source="x_525455_concur">be5b8fe61bb650103311877ddc4bcbe7</sys_package>
+        <sys_parent display_value="Task">b8f3dda61b2210103311877ddc4bcb47</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Concur">be5b8fe61bb650103311877ddc4bcbe7</sys_scope>
+        <sys_scope_delete display_value="">1c3641afc45a49d29dbd28af9fb4ec84</sys_scope_delete>
+        <sys_update_name>sys_wizard_answer_c2d8e7fe1b7290103311877ddc4bcbd6</sys_update_name>
+        <sys_update_version display_value="sys_wizard_answer_c2d8e7fe1b7290103311877ddc4bcbd6">c3ea67721bb290103311877ddc4bcb6b</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-08-27 06:11:57</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
